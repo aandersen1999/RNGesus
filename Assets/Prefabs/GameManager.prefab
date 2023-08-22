@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1216267053209026306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216267053209026304}
+  - component: {fileID: 1216267053209026307}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216267053209026304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216267053209026306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216267053209026307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216267053209026306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fd6f36e79de124484696501f73af38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTurn: 0
+  playerTurn: 0
+  gameStarted: 0
+  gamePaused: 0
+  playerGroup: {fileID: 0}
+  canvas: {fileID: 0}
+  playerPrefab: {fileID: 0}
+  players: []
+  diceValues: 
+  red: {r: 0, g: 0, b: 0, a: 0}
+  blue: {r: 0, g: 0, b: 0, a: 0}
+  green: {r: 0, g: 0, b: 0, a: 0}
+  pink: {r: 0, g: 0, b: 0, a: 0}
+  map: {fileID: 0}
+  tileDatas: []
+  levels:
+  - sceneAsset: {fileID: 102900000, guid: 289ec2cd5ae09c54aa2dc6b87a665036, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass0.unity
+  - sceneAsset: {fileID: 102900000, guid: d78ae5820be49714999c50c24877ff14, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass0.1.unity
+  - sceneAsset: {fileID: 102900000, guid: 90282d2ff3e2eef48a1b2ef9b0a4313e, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass0.2.unity
+  - sceneAsset: {fileID: 102900000, guid: b7f2d651846160d4d839bca1f530d76d, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass1.unity
+  - sceneAsset: {fileID: 102900000, guid: ffdf16cfc4e107641a8f1e3cee70d113, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass 2.unity
+  - sceneAsset: {fileID: 102900000, guid: 65b843c5a5a5d7545b66dc132b6c6934, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass 3.unity
+  - sceneAsset: {fileID: 102900000, guid: 9336dd3429f42194fb5757a79a482282, type: 3}
+    scenePath: Assets/Scenes/Grass/Grass 4.unity
+  - sceneAsset: {fileID: 102900000, guid: 26c4f54611d03174b8ad155a3ce2ca78, type: 3}
+    scenePath: Assets/Scenes/Desert/Desert 0.unity
+  - sceneAsset: {fileID: 102900000, guid: 29b293775e610434083789e57694958f, type: 3}
+    scenePath: Assets/Scenes/Desert/Desert 1.unity
+  - sceneAsset: {fileID: 102900000, guid: a3013b03fe405d54295df87f431cc2d1, type: 3}
+    scenePath: Assets/Scenes/Desert/Desert 2.unity
+  - sceneAsset: {fileID: 102900000, guid: 0f3a25794a9d82b4984298970523fbc7, type: 3}
+    scenePath: Assets/Scenes/Desert/Desert 3.unity
+  - sceneAsset: {fileID: 102900000, guid: 9f4db3cce41f1c04da2ffe9954089991, type: 3}
+    scenePath: Assets/Scenes/Desert/Desert 4.unity
+  - sceneAsset: {fileID: 102900000, guid: ebaafe660c6c3ec4da6631af1e2ea10b, type: 3}
+    scenePath: Assets/Scenes/Snow/Snow 1.unity
+  - sceneAsset: {fileID: 102900000, guid: ac53ed39fef41db4c9ca3534480411c1, type: 3}
+    scenePath: Assets/Scenes/Snow/Snow 2.unity
+  - sceneAsset: {fileID: 102900000, guid: 186545cb134b74c4ca3d73dc9303e1c0, type: 3}
+    scenePath: Assets/Scenes/Snow/Snow 3.unity
+  - sceneAsset: {fileID: 102900000, guid: 6a8e7c8fb73fc7f4aaf8c1316edfdc35, type: 3}
+    scenePath: Assets/Scenes/Snow/Snow 4.unity
+  levelNumber: 0
+  deadPlayers: 0
+  dummyPrefab: {fileID: 3707916440424651596, guid: f5822571cc05acb4ea509c11438739ff, type: 3}
+  transitionAnimator: {fileID: 0}

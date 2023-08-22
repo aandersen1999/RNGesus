@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 1c7c72882fa0141468d5b547aa2e1291
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass1.unity
+    guid: b7f2d651846160d4d839bca1f530d76d
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass 2.unity
+    guid: ffdf16cfc4e107641a8f1e3cee70d113
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass 3.unity
+    guid: 65b843c5a5a5d7545b66dc132b6c6934
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass 4.unity
+    guid: 9336dd3429f42194fb5757a79a482282
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass0.1.unity
+    guid: d78ae5820be49714999c50c24877ff14
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass0.2.unity
+    guid: 90282d2ff3e2eef48a1b2ef9b0a4313e
+  - enabled: 1
+    path: Assets/Scenes/Grass/Grass0.unity
+    guid: 289ec2cd5ae09c54aa2dc6b87a665036
+  - enabled: 1
+    path: Assets/Scenes/Desert/Desert 0.unity
+    guid: 26c4f54611d03174b8ad155a3ce2ca78
+  - enabled: 1
+    path: Assets/Scenes/Desert/Desert 1.unity
+    guid: 29b293775e610434083789e57694958f
+  - enabled: 1
+    path: Assets/Scenes/Desert/Desert 2.unity
+    guid: a3013b03fe405d54295df87f431cc2d1
+  - enabled: 1
+    path: Assets/Scenes/Desert/Desert 3.unity
+    guid: 0f3a25794a9d82b4984298970523fbc7
+  - enabled: 1
+    path: Assets/Scenes/Desert/Desert 4.unity
+    guid: 9f4db3cce41f1c04da2ffe9954089991
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow 1.unity
+    guid: ebaafe660c6c3ec4da6631af1e2ea10b
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow 2.unity
+    guid: ac53ed39fef41db4c9ca3534480411c1
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow 3.unity
+    guid: 186545cb134b74c4ca3d73dc9303e1c0
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow 4.unity
+    guid: 6a8e7c8fb73fc7f4aaf8c1316edfdc35
+  m_configObjects: {}
